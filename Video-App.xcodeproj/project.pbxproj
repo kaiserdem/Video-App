@@ -73,11 +73,11 @@
 				ADB2971F249664AC00C24A8F /* Video.swift */,
 				ADB297212496650000C24A8F /* Model.swift */,
 				ADB2970D2496374A00C24A8F /* ViewController.swift */,
+				ADB2972524968E7900C24A8F /* Response.swift */,
 				ADB2970F2496374A00C24A8F /* Main.storyboard */,
 				ADB297122496374C00C24A8F /* Assets.xcassets */,
 				ADB297142496374C00C24A8F /* LaunchScreen.storyboard */,
 				ADB297172496374C00C24A8F /* Info.plist */,
-				ADB2972524968E7900C24A8F /* Response.swift */,
 			);
 			path = "Video-App";
 			sourceTree = "<group>";
