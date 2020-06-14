@@ -13,6 +13,10 @@
 		ADB297112496374A00C24A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB2970F2496374A00C24A8F /* Main.storyboard */; };
 		ADB297132496374C00C24A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB297122496374C00C24A8F /* Assets.xcassets */; };
 		ADB297162496374C00C24A8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB297142496374C00C24A8F /* LaunchScreen.storyboard */; };
+		ADB2971E2496618900C24A8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2971D2496618900C24A8F /* Constants.swift */; };
+		ADB29720249664AC00C24A8F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2971F249664AC00C24A8F /* Video.swift */; };
+		ADB297222496650000C24A8F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB297212496650000C24A8F /* Model.swift */; };
+		ADB2972424967A5400C24A8F /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2972324967A5400C24A8F /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ADB297122496374C00C24A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB297152496374C00C24A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB297172496374C00C24A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB2971D2496618900C24A8F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ADB2971F249664AC00C24A8F /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		ADB297212496650000C24A8F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ADB2972324967A5400C24A8F /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				ADB297092496374A00C24A8F /* AppDelegate.swift */,
 				ADB2970B2496374A00C24A8F /* SceneDelegate.swift */,
+				ADB2971D2496618900C24A8F /* Constants.swift */,
+				ADB2972324967A5400C24A8F /* ConstantsTemplate.swift */,
+				ADB2971F249664AC00C24A8F /* Video.swift */,
+				ADB297212496650000C24A8F /* Model.swift */,
 				ADB2970D2496374A00C24A8F /* ViewController.swift */,
 				ADB2970F2496374A00C24A8F /* Main.storyboard */,
 				ADB297122496374C00C24A8F /* Assets.xcassets */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB2972424967A5400C24A8F /* ConstantsTemplate.swift in Sources */,
 				ADB2970E2496374A00C24A8F /* ViewController.swift in Sources */,
+				ADB2971E2496618900C24A8F /* Constants.swift in Sources */,
 				ADB2970A2496374A00C24A8F /* AppDelegate.swift in Sources */,
+				ADB297222496650000C24A8F /* Model.swift in Sources */,
 				ADB2970C2496374A00C24A8F /* SceneDelegate.swift in Sources */,
+				ADB29720249664AC00C24A8F /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7729HYB5LH;
 				INFOPLIST_FILE = "Video-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7729HYB5LH;
 				INFOPLIST_FILE = "Video-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
