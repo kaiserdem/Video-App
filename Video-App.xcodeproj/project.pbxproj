@@ -17,6 +17,7 @@
 		ADB29720249664AC00C24A8F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2971F249664AC00C24A8F /* Video.swift */; };
 		ADB297222496650000C24A8F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB297212496650000C24A8F /* Model.swift */; };
 		ADB2972424967A5400C24A8F /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2972324967A5400C24A8F /* ConstantsTemplate.swift */; };
+		ADB2972624968E7900C24A8F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2972524968E7900C24A8F /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		ADB2971F249664AC00C24A8F /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		ADB297212496650000C24A8F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		ADB2972324967A5400C24A8F /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
+		ADB2972524968E7900C24A8F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				ADB297122496374C00C24A8F /* Assets.xcassets */,
 				ADB297142496374C00C24A8F /* LaunchScreen.storyboard */,
 				ADB297172496374C00C24A8F /* Info.plist */,
+				ADB2972524968E7900C24A8F /* Response.swift */,
 			);
 			path = "Video-App";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB2972624968E7900C24A8F /* Response.swift in Sources */,
 				ADB2972424967A5400C24A8F /* ConstantsTemplate.swift in Sources */,
 				ADB2970E2496374A00C24A8F /* ViewController.swift in Sources */,
 				ADB2971E2496618900C24A8F /* Constants.swift in Sources */,
